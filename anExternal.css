@@ -29,8 +29,62 @@ img {
 }
 
 #pics {
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+.container-center {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.uw-pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+#quad-back {
+    background-color: pink;
+    text-align: center;
+    position: relative;
+}
+
+#quad {
+    margin: 20px 20px 20px 20px;
+    height: 50%;
+    width: 50%;
+}
+
+#dot {
+    border-style: dotted;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+}
+
+#sakura {
+    border: 2px solid palevioletred;
+    border-radius: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    color: pink;
+    -webkit-text-stroke: 2px black;
+}
+
+#icon {
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+#intro {
+    font-size: 40px;
+    text-align: left;
 }
